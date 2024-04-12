@@ -85,8 +85,7 @@ function getData1() {
 
 getData1();
 
-document.getElementById("1-btn").addEventListener("click" , setItem1());
-document.getElementById("1-btn").addEventListener("click" , setPrice1());
+
 
 //
 
