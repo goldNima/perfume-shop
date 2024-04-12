@@ -248,7 +248,15 @@ main{
 
 /* footer */
 
+.Shoar{
+    text-align: center;
+    margin-top: 50px;
+}
 
+.f-txt{
+    font-weight: bolder;
+    font-size: x-large;
+}
 
 @media screen and (max-width: 1280px) {
     .container-header{
