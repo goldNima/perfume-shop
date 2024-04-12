@@ -80,7 +80,6 @@ body{
 
 /* cart */ 
 
-
 .cart{
     width: 1200px;
     height: 500px;
@@ -115,7 +114,6 @@ body{
     text-align: right;
     margin-right: 20px;
 }
-
 
 
 
@@ -300,6 +298,7 @@ main{
     .container-part5{
         gap: 200px;
     }
+
 }
 
 @media screen and (max-width: 1010px) {
@@ -347,7 +346,7 @@ main{
     .container-footer{
         gap: 200px;
     }
-     .cart{
+    .cart{
         width: 500px;
     }
 }
@@ -360,7 +359,6 @@ main{
     .serch{
         width: 180px;
     }
-    
 }
 
 @media screen and (max-width: 550px) {
@@ -417,10 +415,10 @@ main{
 @media screen and (max-width: 470px) {
 
     .container-main1{
-        margin-left: 120px;
+        margin-left: 100px;
     }
     .container-main2{
-        margin-left: 120px;
+        margin-left: 150px;
     }
     .name-of-product{
         margin-left: 0;
