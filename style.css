@@ -287,7 +287,9 @@ main{
     .address{
         gap: 20px;
     }
-
+    .cart{
+        margin-left: 10px;
+    }
 }
 
 @media screen and (max-width: 825px) {
@@ -314,6 +316,9 @@ main{
     .container-footer{
         gap: 200px;
     }
+     .cart{
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -324,6 +329,7 @@ main{
     .serch{
         width: 180px;
     }
+    
 }
 
 @media screen and (max-width: 550px) {
@@ -372,7 +378,9 @@ main{
         margin-top: 300px;
         gap: 100px;
     }
-
+    .cart{
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 470px) {
@@ -386,7 +394,9 @@ main{
     .name-of-product{
         margin-left: 0;
     }
-
+    .cart{
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 417px) {
@@ -459,6 +469,9 @@ main{
     }
     .name-of-product{
         margin-left: 8px;
+    }
+    .cart{
+        width: 250px;
     }
 }
 
