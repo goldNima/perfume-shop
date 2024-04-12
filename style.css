@@ -80,12 +80,23 @@ body{
 
 /* cart */ 
 
+
 .cart{
-    width: 800px;
+    width: 1200px;
     height: 500px;
     background-color: darkgrey;
-    margin-left: 300px;
+    margin-left: 200px;
     display: none;
+}
+
+#itemss{
+    margin-left: 50px;
+    color: blueviolet;
+}
+
+#pricess{
+    margin-left: 20px;
+    color: red;
 }
 
 .title{
@@ -95,6 +106,18 @@ body{
 .btn-close{
     cursor: pointer;
 }
+
+.container{
+    display: flex;
+    text-align: center;
+}
+.total{
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+
 
 /* cart */ 
 
