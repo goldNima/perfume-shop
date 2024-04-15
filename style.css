@@ -518,6 +518,12 @@ main{
     }
 }
 
+@media screen and (max-width: 340px) {
+    .container-main2{
+        margin-left: 100px;
+    }
+}
+
 @media screen and (max-width: 318px) {
     .container-header{
         display: block;
