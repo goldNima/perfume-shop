@@ -208,7 +208,152 @@ document.getElementById("5-btn").addEventListener("click" , setItem5)
 document.getElementById("5-btn").addEventListener("click" , setPrice5)
 
 
+// for woman //
 
 
+let product6 = "N5 channel"
+let priceProduct6 = 655000;
+
+
+function setItem6(){
+   let sixItem = localStorage.setItem("item6" , product6);
+   setItem6()
+}
+
+function setPrice6(){
+   let sixPrice = localStorage.setItem("item6P" , priceProduct6);
+
+   setPrice6()
+}
+
+function getData6() {
+   let getItem6 = localStorage.getItem("item6");
+   let getPrice6 = localStorage.getItem("item6P")
+
+   document.querySelector(".item6").innerHTML = getItem6;
+   document.querySelector(".PItem6").innerHTML = getPrice6
+}
+
+getData6()
+
+document.getElementById("6-btn").addEventListener("click" , setItem6)
+document.getElementById("6-btn").addEventListener("click" , setPrice6)
+
+let product7 = "coco channel"
+let priceProduct7 = 290000;
+
+
+function setItem7(){
+   let sixItem = localStorage.setItem("item7" , product7);
+   setItem7()
+}
+
+function setPrice7(){
+   let sixPrice = localStorage.setItem("item7P" , priceProduct7);
+
+   setPrice7()
+}
+
+function getData7() {
+   let getItem7 = localStorage.getItem("item7");
+   let getPrice7 = localStorage.getItem("item7P")
+
+   document.querySelector(".item7").innerHTML = getItem7;
+   document.querySelector(".PItem7").innerHTML = getPrice7
+}
+
+getData7()
+
+document.getElementById("7-btn").addEventListener("click" , setItem7)
+document.getElementById("7-btn").addEventListener("click" , setPrice7)
+
+let product8 = "Miana channel"
+let priceProduct8 = 185000;
+
+
+function setItem8(){
+   let sixItem = localStorage.setItem("item8" , product8);
+   setItem8()
+}
+
+function setPrice8(){
+   let sixPrice = localStorage.setItem("item8P" , priceProduct8);
+
+   setPrice8()
+}
+
+function getData8() {
+   let getItem8 = localStorage.getItem("item8");
+   let getPrice8 = localStorage.getItem("item8P")
+
+   document.querySelector(".item8").innerHTML = getItem8;
+   document.querySelector(".PItem8").innerHTML = getPrice8
+}
+
+getData8()
+
+document.getElementById("8-btn").addEventListener("click" , setItem8)
+document.getElementById("8-btn").addEventListener("click" , setPrice8)
+
+let product9 = "channel"
+let priceProduct9 = 355000;
+
+
+function setItem9(){
+   let sixItem = localStorage.setItem("item9" , product9);
+   setItem9()
+}
+
+function setPrice9(){
+   let sixPrice = localStorage.setItem("item9P" , priceProduct9);
+
+   setPrice9()
+}
+
+function getData9() {
+   let getItem9 = localStorage.getItem("item9");
+   let getPrice9 = localStorage.getItem("item9P")
+
+   document.querySelector(".item9").innerHTML = getItem9;
+   document.querySelector(".PItem9").innerHTML = getPrice9
+}
+
+getData9()
+
+document.getElementById("9-btn").addEventListener("click" , setItem9)
+document.getElementById("9-btn").addEventListener("click" , setPrice9)
+
+let product10 = "Chance channel"
+let priceProduct10 = 850000;
+
+
+function setItem10(){
+   let sixItem = localStorage.setItem("item10" , product10);
+   setItem10()
+}
+
+function setPrice10(){
+   let sixPrice = localStorage.setItem("item10P" , priceProduct10);
+
+   setPrice10()
+}
+
+function getData10() {
+   let getItem10 = localStorage.getItem("item10");
+   let getPrice10= localStorage.getItem("item10P")
+
+   document.querySelector(".item10").innerHTML = getItem10;
+   document.querySelector(".PItem10").innerHTML = getPrice10
+}
+
+getData10()
+
+document.getElementById("10-btn").addEventListener("click" , setItem10)
+document.getElementById("10-btn").addEventListener("click" , setPrice10)
+
+
+document.querySelector(".dlt-items").addEventListener("click" , (e)=>{
+   localStorage.clear()
+})
 // document.querySelector(".T-total").innerHTML = plusprojuct
 
