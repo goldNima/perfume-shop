@@ -510,6 +510,12 @@ main{
     .items-footer-moshakhasat{
         margin-left: 5px;
     }
+        .container-main2{
+        margin-left: 50px;
+    }
+    .dlt-items{
+        margin-left: 20px;
+    }
 }
 
 @media screen and (max-width: 318px) {
